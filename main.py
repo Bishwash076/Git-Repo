@@ -1,9 +1,7 @@
-from http.server import SimpleHTTPRequestHandler, HTTPServer
+from fastapi import FastAPI
 
-PORT = 8000
+app = FastAPI()
 
-handler = SimpleHTTPRequestHandler
-httpd = HTTPServer(("", PORT), handler)
-
-print(f"Server running on http://localhost:{PORT}")
-httpd.serve_forever()
+@app.get("/ask")
+def ask(question: str):
+    return {"answer": "This is a placeholder response"}
