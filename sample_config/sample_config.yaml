@@ -1,0 +1,8 @@
+# sample_config/site_config.yaml
+
+site_url: "https://www.gutenberg.org"
+selectors:
+  page_links: "a.link"
+  text_content: "div.book-text"
+rate_limit_seconds: 1
+max_pages: 50
