@@ -1,0 +1,10 @@
+services:
+  gutenberg:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"  # or "5000:5000" if using Flask
+    volumes:
+      - ./src:/app
+    command: ["python", "main.py"]  # adjust if needed

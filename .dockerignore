@@ -1,0 +1,31 @@
+# Don't include user/system folders
+AppData/
+Application Data/
+Desktop.ini
+NTUSER.*
+*.log
+*.tmp
+Thumbs.db
+
+# Python cache and venv
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+
+# Node modules
+node_modules/
+
+# Git, VSCode, IDEs
+.git/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store

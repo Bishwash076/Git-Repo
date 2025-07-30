@@ -1,0 +1,24 @@
+o 8.5                       .gitignore
+.env
+data/
+__pycache__/
+*.pyc
+data/minio/
+data/chroma/
+data/lineage/
+
+
+
+
+
+
+
+
+
+.env
+data/
+__pycache__/
+*.pyc
+data/minio/
+data/chroma/
+data/lineage/

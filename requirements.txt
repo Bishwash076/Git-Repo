@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+minio
+duckdb
+langchain
+chromadb
