@@ -6,7 +6,7 @@ Here is the link for descriptive video on this project:
 
 
   The architecture of this project is as: 
-  ┌──────────────────────────────┐
+┌──────────────────────────────┐
 │     Scraper (src/scraper.py)│
 │ - Uses BeautifulSoup         │
 │ - Respects robots.txt        │
